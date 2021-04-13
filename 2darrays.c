@@ -17,13 +17,13 @@ int main()
     printf("PIN CODE: ");
     scanf("%d", &pin);
 
-    if(id==x[0][0], pin==x[0][1])
+    if(id==x[0][0] && pin==x[0][1])
     {
     printf("You have successfully logged in\nID#:%d", id);
-    }else if(id==x[1][0], pin==x[1][1])
+    }else if(id==x[1][0] && pin==x[1][1])
     {
     printf("You have successfully logged in\nID#:%d", id);
-    }else if(id==x[2][0], pin==x[2][1])
+    }else if(id==x[2][0] && pin==x[2][1])
     {
     printf("You have successfully logged\nID#:%d", id);
     }else
