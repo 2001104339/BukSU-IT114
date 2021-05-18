@@ -11,7 +11,7 @@ void main()
    scanf("%d",&ConUnit);
    if (ConUnit > 200)
 	chg = 1.50;
-	else	if (ConUnit>=250 && ConUnit<400)
+	else if (ConUnit>=250 && ConUnit<400)
 		chg = 1.60;
 	else if (ConUnit>=450 && ConUnit<600)
 		chg = 1.85;
