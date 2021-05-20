@@ -8,7 +8,7 @@ int main()
     int i,vowels=0, consonants=0, l;
 
     printf("Input a sentence: ");
-    gets(s);
+    fgets(s, sizeof(s), stdin);
 
     l = strlen(s);
 
